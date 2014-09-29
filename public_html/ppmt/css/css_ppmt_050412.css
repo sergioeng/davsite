@@ -1,0 +1,370 @@
+body {
+	background-color: #333;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#topo {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 152px;
+	font-size: 11px;
+	color: #FFF;
+}
+.centralizar {
+	float: none;
+	height: 150px;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+}
+.centralizar_miolo {
+	float: none;
+	width: 1000px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+}
+.centralizar_miolo_index {
+	float: none;
+	width: 400px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	padding: 20px;
+}
+
+#logo {
+	float: left;
+	height: 120px;
+	width: 1000px;
+	position: relative;
+	text-align: center;
+}
+#logo a img {
+	border: 0px solid #FFF;
+}
+#descricao {
+	float: left;
+	height: 27px;
+	width: 1000px;
+	position: relative;
+	text-align: right;
+	font-size: 10px;
+}
+a.link {
+	color: #000;
+	text-decoration: none;
+}
+
+a.link:hover{
+	color: #000;
+	text-decoration: underline;
+}
+a.link_white {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a.link_white:hover {
+	text-decoration: underline;
+}
+.linha {
+	background-color: #FFF;
+	float: left;
+	height: 2px;
+	width: 100%;
+	position: relative;
+	font-size: 0px;
+}
+
+#miolo {
+	float: left;
+	width: 100%;
+
+	height: expression(this.scrollHeight <= "548" ? "548" : "auto");  
+	min-height: 548px;
+	position: relative;
+	background-color: #000;
+}
+#conteudo {
+	height: expression(this.scrollHeight <= "548" ? "548" : "auto");
+	min-height: 548px;
+	background-color: #DADBE0;
+	width: 1000px;
+	float: left;
+	position: relative;
+}
+#bottom {
+	font-size: 10px;
+	color: #FFF;
+	float: left;
+	width: 100%;
+	position: relative;
+	text-align: right;
+}
+#bottom .centralizar p {
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#miolo_esq {
+	float: left;
+	height: expression(this.scrollHeight <= "530" ? "530" : "auto");  
+	min-height: 530px;
+	width: 245px;
+	position: relative;
+	margin-top: 18px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.destaque {
+	font-size: 18px;
+	font-weight: bold;
+	color: #C00;
+}
+
+#miolo_right {
+	float: left;
+	height: expression(this.scrollHeight <= "530" ? "530" : "auto");  
+	min-height: 494px;
+	width: 701px;
+	position: relative;
+	padding: 27px;
+}
+h1 {
+	color: #000;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+.h1_index {
+	color: #000;
+	font-size: 30px;
+	text-align: center;
+}
+h3 {
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+}
+h2 {
+	font-size: 20px;
+}
+#editavel {
+	float: left;
+	position: relative;
+	padding-botton: 0px;
+	width: 760px;
+	padding-top: 0px;
+	padding-right: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#editavel_index {
+	padding: 20px;
+}
+
+li {
+	list-style-type: disc;
+	list-style-position: outside;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+textarea {
+	font-size: 14px;
+	width: 312px;
+	border: 0px solid #FFFFFF;
+	background-color: #C7C8CF;
+	color: #000;
+}
+.text_medio {
+	font-size: 14px;
+	color: #000;
+	width: 330px;
+	background-color: #C7C8CF;
+	border: 1px solid #999;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+.text_curto {
+	font-size: 14px;
+	color: #000;
+	width: 200px;
+	background-color: #C7C8CF;
+	border: 1px solid #999;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+
+.submit {
+	font-size: 16px;
+	text-align:center;
+	color: #FFFFFF;
+	background-color: #000;
+	border: 1px solid #FFFFFF;
+	padding-top: 3px;
+	padding-right: 20px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	font-weight: bold;
+	line-height: 13px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+.submit:hover {
+	color:#000;
+	background-color:#FFF;
+	border: 1px solid #000;
+}
+.submit_table {
+	font-size: 16px;
+	text-align:center;
+	color: #FFFFFF;
+	background-color: #000;
+	border: 1px solid #FFFFFF;
+	padding-top: 3px;
+	padding-right: 20px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	font-weight: bold;
+	line-height: 13px;
+	margin: 0px;
+}
+.submit_table:hover {
+	color:#000;
+	background-color:#FFF;
+	border: 1px solid #000;
+}
+#atencao {
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align:justify;
+	width: 720px;
+	float: left;
+	background-color: #C00;
+	padding: 20px;
+	position: relative;
+}
+#logado {
+	font-size: 14px;
+	color: #000;
+	float: left;
+	width: 960px;
+	position: relative;
+	padding: 20px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+}
+#menu {/* MENU PRINCIPAL - PARA TODO O ppmt */
+	float: left;
+	width: 200px;
+	position: relative;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#menu a { /* LINKS DO MENU PRINCIPAL PARA O PPMT */
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+	padding-top: 5px;
+	text-decoration: none;
+	background-color: #000;
+	padding-bottom: 5px;
+	line-height: 14px;
+	width: 200px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	float: left;
+}
+#menu a:hover {
+	color: #000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+hr {
+	border: 1px solid #666;
+}
+#submenu {
+	width: 760px;
+	position: relative;
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#submenu a {
+	text-align: center;
+	display: inline;
+	padding-top: 5px;
+	text-decoration: none;
+	background-color: #A0A3AF;
+	margin-right: 3px;
+	float: left;
+	color: #000;
+	padding-bottom: 5px;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	line-height: 14px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-transform: uppercase;
+}
+#submenu a:hover{
+	color: #FFF;
+	text-decoration: none;
+	background-color: #000;
+}
+#form_bug {
+	float: left;
+	width: 760px;
+	position: relative;
+}
+.contato1 {
+	font-size:16px;
+	color: #000;
+	text-align: right;
+	width: 50px;
+}	
+.contato2 {
+	font-size:13px;
+	color: #000;
+	text-align: right;
+	width: 120px;
+}
+td.media {
+	width: 250px;
+}
+.fck {
+	width: 500px;
+}

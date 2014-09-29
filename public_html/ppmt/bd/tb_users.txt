@@ -1,0 +1,13 @@
+CREATE TABLE `tb_users` (
+  `user_id` int(3) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `user_login` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `user_pass` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
+  `user_levelaccess` int(2) NOT NULL,
+  `user_lastaccess` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `user_active` binary(1) NOT NULL,
+  Constraint PK_users PRIMARY KEY (`user_id`)
+) ENGINE=Innodb  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
+
+INSERT INTO tb_users(user_name,user_login,user_pass,user_levelaccess,user_lastaccess,user_active) VALUES
+('Michelle','michelle','michelle',1,'',1)

@@ -1,0 +1,9 @@
+CREATE TABLE `tb_promo` (
+  `promo_id` int(3) NOT NULL AUTO_INCREMENT,
+  `promo_nome` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `promo_imagem` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `promo_resumo` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
+  `promo_descricao` text COLLATE utf8_unicode_ci NOT NULL,
+  `promo_validade` varchar(500) COLLATE utf8_unicode_ci NOT NULL,
+  Constraint PK_users PRIMARY KEY (`promo_id`)
+) ENGINE=Innodb  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
